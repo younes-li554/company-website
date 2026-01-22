@@ -1,0 +1,115 @@
+/* =======================
+   Root Variables
+======================= */
+:root {
+  --primary-color: #0a3d62;
+  --secondary-color: #3c6382;
+  --background-color: #f5f6fa;
+  --text-color: #2f3640;
+  --button-color: #1e90ff;
+  --button-hover: #3742fa;
+  --card-bg: #ffffff;
+  --border-radius: 10px;
+  --font-family: 'Inter', sans-serif;
+}
+
+/* =======================
+   Reset & Base
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.7;
+}
+
+/* =======================
+   Page Container
+======================= */
+.page {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* =======================
+   Hero Section
+======================= */
+.hero {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 80px 30px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* =======================
+   Cards
+======================= */
+.card-custom {
+  background: var(--card-bg);
+  padding: 25px;
+  border-radius: var(--border-radius);
+  height: 100%;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.card-custom h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+/* =======================
+   Buttons
+======================= */
+.btn {
+  border-radius: var(--border-radius);
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* =======================
+   Contact Page
+======================= */
+.contact-info {
+  background: white;
+  padding: 30px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* =======================
+   Footer (جاهز لاحقًا)
+======================= */
+.footer {
+  text-align: center;
+  padding: 30px;
+  color: #777;
+}
